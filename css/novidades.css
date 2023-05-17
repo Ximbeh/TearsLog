@@ -1,0 +1,39 @@
+
+
+
+.produtos{
+    display: grid;
+    grid-template-columns: 35vw 35vw;
+    justify-content: space-between;
+    row-gap: 1rem;
+    margin: 1rem 10%
+}
+
+.produto{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+.img_produto{
+    height: 35vw;
+    margin-bottom: 0.5rem;
+}
+
+
+.img_produto3{
+    height: 35vw;
+}
+
+.nome_produto{
+    font-size: 0.9rem;
+    word-wrap: break-word;
+}
+
+.preco_produto, .preco_antes, .desconto{
+    font-size: 0.75rem;
+}
+
+.novidades .preco_produto{
+    margin-left: 5px;
+}

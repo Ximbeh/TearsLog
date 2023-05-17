@@ -1,0 +1,10 @@
+header{
+    background-color: var(--c4);
+    display: flex;
+    padding: 1rem 1.5rem;
+    justify-content: space-between;
+}
+
+.logo{
+    max-width: 30vw;
+}

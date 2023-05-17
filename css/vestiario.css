@@ -1,0 +1,74 @@
+.vestiario{
+    margin-bottom: 5rem;
+}
+
+.vestiario .titulo{
+    margin: 0 20%;
+    text-align: center;
+}
+
+.tipos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: end;
+    justify-items: center;
+    row-gap: 2rem;
+}
+
+.tipo{
+    display: grid;
+    justify-items: center;
+    row-gap: 10px;
+    position: relative;
+}
+
+.tipo img{
+    height: 35vw;
+}
+
+.maisTipos{
+    background-color: var(--c3);
+    width: 35vw;
+    height: 35vw;
+    position: absolute;
+    opacity: 65%;
+
+
+}
+
+.maisTipos::before{
+    content: "";
+    width: 11vw;
+    height: 8px;
+    border-radius: 15px;
+    display: block;
+    background-color: var(--c12);
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 100%;
+}
+
+.maisTipos::after{
+    content: "";
+    width: 11vw;
+    height: 8px;
+    border-radius: 15px;
+    display: block;
+    background-color: var(--c12);
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%)  rotate(90deg);
+    opacity: 100%;
+}
+
+.maisItens{
+    position: absolute;
+    top: 55%;
+    color: var(-c12)
+
+}
+
+

@@ -1,0 +1,144 @@
+html{
+    /* scroll */
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    position: relative;
+
+
+    /* color pallet */
+    --c1: #f5f5f5;
+    --c2: #EEEEEE;
+    --c3: #DDDDDD;
+    --c4: #C6C6C6;
+    --c5: #B0B0B0;
+    --c6: #999999;
+    --c7: #848484;
+    --c8: #707070;
+    --c9: #5C5C5C;
+    --c10: #494949;
+    --c11: #363636;
+    --c12: #252525;
+    --c13: #141414;
+    --c13t: #14141400;
+    --c12footer: #252525;
+    --c13modal: #141414;
+    --c13modalb: #000000;
+    --c3modal: #DDDDDD;
+
+
+    --Az1: #DEF3FF;
+    --Az2: #CCE7F6;
+    --Az3: #B7E0F6;
+    --Az4: #A1D8F6;
+    --Az5: #7FCCF8;
+    --Az6: #6FBDF5;
+    --Az7: #56AEE0;
+    --Az8: #4D95D8;
+    --Az9: #3E6AC1;
+    --Az10: #2D58AD;
+    --Az11: #1D3790;
+    --Az12: #152C7C;
+    --Az13: #132273;
+    --Az14: #0C195B;
+    --Az15: #0B0D45;
+    --Az16: #040627;
+    --Az17: #070318;
+
+}
+
+
+
+/* FONTS */
+@font-face {
+    font-family: 'SugoLight';
+    src: url('../fonts/Sugo-Pro-Display-Light-trial.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SugoBold';
+    src: url('../fonts/Sugo-Pro-Display-Bold-trial.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SugoLight';
+    src: url('../fonts/Sugo-Pro-Display-ExtraLight-trial.ttf') format('truetype');
+}
+
+
+/* global rules */
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--c1);
+    font-family: 'Fira Sans', Arial, Helvetica, sans-serif ;
+    transition: .5s;
+
+}
+
+.body{
+    max-width: 100rem;
+}
+
+h1,h2,h3,h4,a,nav,li,ul,p,span{
+    display: inline-block;
+    margin: 0;
+    padding-inline-start: 0px;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+
+.titulo{
+    font-family: 'SugoLight';
+    font-size: 3.5rem;
+    color: var(--c11);
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0 1rem 0
+}
+
+.nome_produto, .titulo_tipo{
+    font-family: 'Inter';
+    font-weight: bold;
+}
+
+.preco_produto, .preco_antes, .desconto{
+    font-family: 'Inter';
+    font-weight: light;
+}
+
+.preco_produto{
+    color: var(--Az10);
+}
+
+.preco_antes{
+    color: var(--c7);
+}
+
+.desconto{
+    color: #C38408;
+}
+
+
+.verMais{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    font-family: 'Inter';
+    font-weight: 600;
+    padding: 2rem 0 3rem 0
+}
+
+.verMais p{
+    color: var(--c6);
+    margin-bottom: 7px;
+}
+

@@ -1,0 +1,26 @@
+.promocoes{
+    background-color: var(--c3);
+}
+
+.precos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.preco_antes{
+    position: relative;
+    z-index: 2;
+}
+
+.preco_antes::after{
+    content: "";
+    width: 80%;
+    height: 1.5px;
+    display: block;
+    background-color: var(--c6);
+    position: absolute;
+    bottom: 50%;
+    transform: rotate(-10deg);
+    z-index: -1;
+
+}
